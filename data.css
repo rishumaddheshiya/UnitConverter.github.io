@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+  margin: 0;
+  }
+  a{
+      text-decoration: none;
+  }
+#hm{
+  height: 45px;
+  width: 180px;
+ color: rgb(212, 231, 3);
+ font-size: xx-large; 
+ border: 2px solid rgb(13, 13, 13);
+ background-color: rgb(233, 232, 237);
+ margin-bottom: 30px;
+ box-shadow: 10px 10px 10px rgb(138, 94, 197);
+ border-radius: 9px;
+ text-align: center;
+}
+#hm:hover{
+  cursor: pointer;
+  background-color: yellow;
+  color: darkblue;
+  height: 55px; 
+    width: 200px; 
+    transition: 0.2s ease;
+}
+
+h1{
+  
+    color: rgb(12, 8, 233);
+    margin-bottom: 20px;
+    font-size:xxx-large;
+}
+.c{
+   background-color: rgb(109, 202, 206); 
+   height: 100%; 
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+.m{
+   background-color: rgb(222, 135, 135);
+   height: 40%; 
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+
+}
+
+#input{
+  width: 300px;
+  height: 60px;
+  resize: none;
+  font-size: xx-large;
+  border: 3px solid blueviolet;
+  /* border-radius: 10%; */
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 12px;
+}
+
+#result{
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  resize: none;
+  font-size: xx-large;
+  border: 3px solid blueviolet;
+  border-radius: 12px;
+}
+
+#inputType{
+    position: relative;
+    bottom: 0px;
+margin-left: -2px;
+width: 60px;
+height: 40px;
+margin-right: 100px;
+font-size: larger;
+}
+
+#resultType{
+    position: relative;
+    bottom: 0px;
+    width: 60px;
+height: 40px;
+font-size: larger;
+      
+    }
+
+
+
+
+    @media (max-width:500px) {
+   
+
+      .m{
+       /* background-color: yellow; */
+       height:300px ;
+       width: 250px;
+       gap : 60px;
+       grid-template-columns: 100px 100px;
+       grid-template-rows: 100px 100px;
+       margin-top: 40px;
+       flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+      }
+
+      #input{
+        margin-left: 30px;
+        width: 200px;
+        height: 50px;
+      
+      }
+
+      #result{
+        width: 200px;
+        height: 50px;
+        margin-left: 30px;
+      }
+   
+   
+   }

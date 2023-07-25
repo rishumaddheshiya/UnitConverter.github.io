@@ -1,0 +1,132 @@
+*{
+    
+   padding: 0;
+   margin: 0;
+   }
+
+
+h1{
+   
+   color: rgb(222, 218, 226);
+   margin-bottom: 20px;
+}
+
+#hm{
+    height: 45px;
+    width: 360px;
+   color: rgb(218, 27, 164);
+   font-size: xx-large; 
+   border: 2px solid rgb(13, 13, 13);
+   background-color: rgb(233, 232, 237);
+   margin-bottom: 30px;
+   box-shadow: 10px 10px 10px rgb(138, 94, 197);
+   border-radius: 9px;
+   text-align: center;
+  }
+.c{
+    background-color: rgb(237, 153, 70); 
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.m{
+    background-color: rgb(75, 194, 161);
+    height: 70%; 
+    width: 55%;
+    display: grid;
+    /* grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 3; */
+     
+   grid-template-columns: 200px 200px;
+   grid-template-rows: 200px 200px;
+   gap: 50px; 
+     /* column-gap: 20px; */
+     justify-content: center;
+     align-items: center;
+     border-radius: 6%;
+
+}
+
+.im{
+    margin-top: 10px;
+height:130px ;
+width:160px ;
+border-radius: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.i{
+    margin-top: 40px;
+    background-color: rgb(222, 81, 193);
+    height: 180px; 
+    width: 180px; 
+    border-radius: 6%; 
+    box-shadow: 10px 10px 10px rgb(138, 94, 197);
+    font-size: x-large;
+    text-align:center;
+}
+.i:hover{
+    cursor: pointer;
+    height: 200px; 
+    width: 200px; 
+    transition: 0.2s ease;
+}
+
+
+
+@media (max-width:500px) {
+   
+
+   .m{
+    /* background-color: yellow; */
+    height:300px ;
+    width: 300px;
+    gap : 60px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin-top: 40px;
+ 
+   }
+   
+
+   .im{
+    margin-top: 10px;
+height:40px ;
+width:90px ;
+border-radius: 7px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.i{
+    margin-top: 40px;
+    background-color: rgb(222, 81, 193);
+    height: 100px; 
+    width: 110px; 
+    border-radius: 6%; 
+    box-shadow: 10px 10px 10px rgb(138, 94, 197);
+    font-size: x-large;
+    text-align:center;
+}
+.i:hover{
+    cursor: pointer;
+    height: 120px; 
+    width: 130px; 
+    transition: 0.2s ease;
+}
+
+
+}
